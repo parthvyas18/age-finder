@@ -1,0 +1,42 @@
+//age finder app
+//current date; 5:10:2019
+print('Enter your birthdate details to know your age')
+date=input("Enter the date:")
+date=int(date)
+month=input("Enter the month: ")
+month=int(month)
+year=input("Enter the year: ")
+year=int(year)
+y=2019-year
+m=10-month
+d=d-date
+if d<0:
+  if m>0:
+     m=m-1
+     d=d+30
+     y=y+0
+if d<0:
+   if m==0:
+      m=m+11
+      y=y-1
+      d=d+30
+if d<0:
+   if m<0:
+      m=m+12
+      d=d+30
+      y=y-1
+if d>=0:
+   if m<0:
+      m=m+12
+      y=y-1
+      d=d+0
+if d>=0:
+   if m>=0:
+       m=m+0
+       y=y+0
+       d=d+0
+y=str(y)
+m=str(m)
+d=str(d)
+print(y+'years' +m+'months' +d+'days')
+     
