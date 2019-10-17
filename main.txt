@@ -1,4 +1,5 @@
 //age finder app
+//its a python code
 //current date; 5:10:2019
 print('Enter your birthdate details to know your age')
 date=input("Enter the date:")
