@@ -1,6 +1,6 @@
 //age finder app
 //current date; 5:10:2019
-print('Enter your birthdate details to know your age')
+print('Enter your date of birth')
 date=input("Enter the date:")
 date=int(date)
 month=input("Enter the month: ")
